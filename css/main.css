@@ -481,6 +481,9 @@ h2{
     overflow: hidden;
     box-shadow:0 0 5px #808080;
 }
+#aboutUs{
+  padding-bottom: 50px;
+}
 .our-team img{
     width: 100%;
     height: auto;
@@ -589,10 +592,10 @@ hr{
   width: 20%;
 }
 .backgroundImage {
-  background-image:url("http://cdn2.hubspot.net/hubfs/188845/images/bg-working-process.jpg");
+  background-color:#DDDDDD;
   background-repeat: no-repeat;
   background-size: cover;
-
+  padding-bottom: 50px;
 }
 
 #technology {
