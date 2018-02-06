@@ -1419,3 +1419,81 @@ h2 {
     -webkit-transition: opacity .3s, -webkit-transform .3s;
     -moz-transition: opacity .3s, -moz-transform .3s;
     transition: opacity .3s, transform .3s; }
+
+.subsec-pricing-tables {
+  display: block;
+  padding-top: 5vh;
+  padding-bottom: 15vh;
+  background-color: #1b1a1c;
+  text-align: center;
+  color: #fff; }
+  .subsec-pricing-tables h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 4em;
+    margin: 0 0 5px 0;
+    text-transform: uppercase;
+    font-weight: 400; }
+  .subsec-pricing-tables .table-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center; }
+  .subsec-pricing-tables .table-row {
+    margin-top: 10vh; }
+  .subsec-pricing-tables .table-1 {
+    display: grid;
+    grid-template-rows: auto;
+    padding: 3vh 2vw;
+    max-width: 25vh;
+    border-radius: 10px;
+    background-color: #1f1f1f;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.75);
+    -webkit-transition: background-color 350ms ease;
+    transition: background-color 350ms ease;
+    font-family: Lato, sans-serif;
+    color: #f5f5f5; }
+  .subsec-pricing-tables .table-1:hover {
+    background-color: #0c0a0a; }
+  .subsec-pricing-tables .table-title {
+    margin-bottom: 1vh;
+    font-size: 2.2em;
+    line-height: 2.2em;
+    font-weight: 700; }
+  .subsec-pricing-tables .div-block-3 {
+    width: 100%;
+    height: 3px;
+    margin-top: 1vh;
+    background-color: #1b1a1c; }
+  .subsec-pricing-tables .table-price {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    -webkit-transition: color 350ms ease;
+    transition: color 350ms ease;
+    color: #ea716e;
+    font-size: 2em; }
+  .subsec-pricing-tables .table-hook {
+    margin-top: 1vh;
+    margin-bottom: 4vh;
+    font-size: 1.35em;
+    font-weight: 700; }
+  .subsec-pricing-tables .table-list {
+    margin-bottom: 5vh;
+    padding-left: 1.25em;
+    font-style: italic;
+    text-align: left; }
+  .subsec-pricing-tables .table-choose {
+    margin-top: auto;
+    margin-bottom: 3vh;
+    padding-top: 1vh;
+    padding-bottom: 1.2vh;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 auto;
+    -ms-flex: 0 auto;
+    flex: 0 auto;
+    border-radius: 5px;
+    -webkit-transition: background-color 350ms ease;
+    transition: background-color 350ms ease;
+    font-size: 1.2em;
+    line-height: 1.3em;
+    font-weight: 700;
+    background-color: #ea716e; }
